@@ -1,0 +1,44 @@
+#contenuto_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    
+    
+}
+#contenuto_info form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    
+}
+
+#contenuto_info form div{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border: 0;
+    justify-content: space-evenly;
+
+}
+
+input[type="text"]
+{
+    border: 1px solid gray;
+    padding: 2px 8px;
+    border-radius: 50px;
+}
+input[type="date"]
+{
+    border: 1px solid gray;
+    padding: 2px 8px;
+    border-radius: 50px;
+}
+button {
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 80%;
+}

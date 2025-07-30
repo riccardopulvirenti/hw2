@@ -1,0 +1,684 @@
+/*il font differisce da quello del sito originale poiché non è presente su google fonts*/
+h1,h2,h3,h4,h5{
+    font-weight: bolder ;
+}
+:root{
+    --grigio: rgb(243,241,239);
+    --arancione: rgb(244,123,42);
+    --azzuro: #C1DADE;
+    --grigiochiaro: #F5F3F1;
+    --grigiofooter: #EFEDEA;
+    --grigiolinea: rgb(217,216,213);
+    --nero: #242E30;
+    --blu: #125FCA;
+    --verdedelicato : #a6f08d;
+    --bluchiaro : #668ba4;
+}
+body,html{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+
+}
+img{
+    height: 32px;
+}
+.rightnav{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.rightnav a{
+    display: flex;
+    align-items: center;
+    padding: 9px 24px;
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+}
+.rightnav a:hover{
+    background-color: rgba(0,0,0,0.05);
+}
+.rightnav a span{
+    margin: 0 0 0 8px;
+}
+.maindiv{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 709px;
+}
+.maindivleft{
+    background-color: var(--grigio);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    padding: 0 96px 0 160px;
+}
+.maindivleft div h1{
+    font-size: 48px;
+}
+.maindivleft div h2{
+    font-size: 28px;
+}
+.maindivright{
+    height: 100%;
+    display: flex;
+    background-color: var(--grigio);
+    width: 50%;
+
+}
+#contenitorepanino{
+    background-color: var(--arancione);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenitoreslope img{
+    height: 100%;
+}
+.maindivright img{
+    height: 464px;
+}
+.search{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 6px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    width: 80%;
+
+    
+}
+.search button{
+    border: 0px;
+    background-color: var(--arancione);
+    color: white;
+    padding: 9px 24px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.search input{
+    border: 0px;
+    padding: 16px;
+    color: gray;
+    border-radius: 30px;
+    outline: none;
+}
+.divcomeordinare{
+    padding: 64px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.iconedivcomeordinare{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    width: 40%;
+
+}
+.iconedivcomeordinare svg{
+    fill: var(--arancione);
+}
+.iconedivcomeordinare div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    margin: 0;
+    text-align: center;
+}
+.iconedivcomeordinare div img{
+    height: 80px;
+}
+.iconedivcomeordinare div h5{
+    font-size: 20px;
+    margin: 0;
+}
+.iconedivcomeordinare div p{
+    font-size: 14px;
+}
+#divcomeordinareslogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#divcomeordinareslogan h3{
+    font-size: 24px;
+    margin: 0;
+}
+#divcomeordinareslogan h2{
+    font-size: 48px;
+    margin: 8px 0 0;
+    color: var(--arancione);
+}
+.slogan p{
+    margin: 0;
+}
+.divapplicazione{
+    height: 485px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+
+}
+.sectionapplicazione{
+    background-color: var(--azzuro);
+}
+#appstore{
+    height: 50px;
+}
+#playstore{
+    height: 50px;
+}
+#apptelefono{
+    height: 453.72px;
+}
+#divapplicazioneleft h2{
+    font-size: 48px;
+    margin: 0;
+    padding-right: 20vw;
+}
+#divapplicazioneleft p{
+    font-size: 24px;
+    margin: 0;
+}
+#divapplicazioneleft
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50%;
+}
+#divapplicazioneright img{
+    position: relative;
+    right: 0;
+    bottom: -15px;
+}
+.dicosahaivogliasection{
+    padding: 64px;
+    background-color: var(--grigiochiaro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dicosahaivogliasection div p{
+    font-size: 24px;
+}
+.dicosahaivogliasection div h2{
+    font-size: 48px;
+    color: var(--arancione);
+}
+.slogan{
+    text-align: center;
+}
+.boxpeculiarita{
+    display: flex;
+    margin: 0;
+    justify-content: space-evenly;
+    padding: 0 0.5vw;
+
+}
+.box{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid var(--grigiochiaro);
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 2%;
+    width: 328px;
+}
+.box h4{
+    font-size: 20px;
+}
+.box div{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box svg{
+    height: 64px;
+    width: 64px;
+    fill: var(--arancione);
+}
+
+.markedmessage{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.markedmessage svg{
+    height: 24px;
+    width: 24px;
+    fill: var(--nero);
+}
+.markedmessage span{
+    font-size: 14px;
+    width: 80%;
+}
+.markedmessagecontainer{
+    display: flex;
+    flex-direction: column;
+}
+.seguici{
+    height: 175px;
+}
+footer{
+    background-color: var(--grigiofooter);
+    padding: 16px 32px 24px;
+
+}
+.seguici{
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 40px 0 56px;
+}
+.seguici span{
+    margin: 16px 0px;
+}
+.seguici img{
+    height: 48px;
+}
+#social{
+    margin: 16px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#social div{
+    display: flex;
+   
+}
+#social div svg{
+    margin: 0 14px;
+}
+#divlistmenu{
+    height: 281px;
+    padding: 0 0 16px;
+    display: flex;
+    height: fit-content;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.opzionelista{
+    padding: 12px 16px;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+
+    flex-direction: column;
+
+}
+.opzionelista div{
+    display: flex;
+    padding: 12px;
+    justify-content: space-between;
+    width: 60%;
+
+}
+.opzionelista img{
+    height: 24px;
+}
+
+#divlistmenuleft{
+    width: 40vw;
+}
+#divlistmenuright{
+    width: 40vw;
+}
+#divpulsanti{
+    height: 52px;
+    font-size: 14px;
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#divpulsanti a{
+    text-decoration: none;
+    color: var(--nero);
+    display: flex;
+    align-items: center;
+}
+.linea{
+    width: 100%;
+    border: 1px solid var(--grigiolinea);
+}
+#divcopyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+#divpreferenzecookie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 12px;
+}
+#divpreferenzecookie a{
+    color: var(--nero);
+}
+#divpreferenzecookie span{
+    color: var(--nero);
+}
+#logofooter{
+    fill: var(--nero);
+    height: 48px;
+    width: 199px;
+}
+.highlight{
+    color: var(--blu);
+}
+
+
+
+@media(max-width: 1000px)
+{
+    
+    .iconedivcomeordinare{
+        flex-direction: column;
+        align-items: center;
+    }
+    .boxpeculiarita{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    #divlistmenu{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .box{
+        margin-left: 0;
+        margin-top: 2%;
+        width: 100%;
+        padding-bottom: 10%;
+        padding-top: 5%;
+    }
+    
+}
+.hide{
+    display: none;
+    
+}
+#searchbutton{
+    font-family: "Roboto Mono", monospace;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 14px;
+    padding: 0;
+}
+li{
+    padding-top: 24px;
+
+}
+li:hover{
+    text-decoration: underline;
+}
+.opzionelista div:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#menuacomparsacontainer{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    
+}
+#menuacomparsa{ 
+    background-color: white;
+    height: max-content;
+    padding: 4px 24px 24px;
+    border-radius: 20px;
+    width: 50%;
+}
+#menuacomparsa div div{
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    flex-grow: 1;
+    
+}
+.sfondooscurato{
+    background-color: rgba(0,0,0,0.6);
+}
+.sotterrato{
+    z-index: -100;
+}
+.nonsotterrato{
+    z-index: 100;
+}
+.bottonemenu{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 16px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #F5F3F1;
+    
+}
+.flexrow{
+    display: flex;
+    flex-direction: row;
+}
+.sfondoarancione{
+    background-color: var(--arancione);
+    color: white;
+}
+
+#menuacomparsa div div svg{
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+}
+#menuacomparsa div div{
+    display: flex;
+}
+#cercacibo_body{
+    overflow: hidden;
+}
+#cercacibo{
+    background-color: var(--grigio);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+#formricerca{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    
+}
+#formricerca div{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#formricerca div span{
+    text-align: center;
+    font-size: 3rem;
+}
+#fotocibo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 91.5vh;
+    overflow-y: scroll;
+}
+#fotocibo div{
+    border: 5px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.3rem;
+}
+#fotocibo div img{
+    max-width: 40vw;
+    height: 100%;
+    margin: 1rem;
+    
+}
+
+#formricerca div form{
+    background-color: white;
+    padding: 0.4rem;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+#formricerca div form button{
+    border: 0px;
+    background-color: var(--arancione);
+    padding: 0.5rem;
+    border-radius: 50px;
+    color: white;
+}
+#formricerca div form input{
+    outline: none;
+    border: none;
+}
+#a_logo{
+    border: 0;
+    margin: 0;
+}
+#spotify_integration{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    border-radius: 50px;
+    width: 30vw;
+    z-index: 5;
+    color: white;
+}
+#spotifybar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#spotifybar img{
+    margin-right: 3%;
+}
+#spotifymenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 50vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-color: white rgba(0,0,0,0)
+}
+.spotifymenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 50vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-color: white rgba(0,0,0,0)
+}
+#spotifymenu div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2%;
+}
+
+
+#recensionisito{
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    background-color: var(--verdedelicato);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2% 0;
+}
+#recensionisito div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    height: fit-content;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 1%;
+    padding: 0.5% 1%;
+    justify-content: flex-start;
+    background-color: var(--grigiochiaro);
+}
+
+#recensionisito div p{
+    margin: 1%;
+}
+
+#tipidicucina
+{
+    height: 20vh;
+    width: 100vw;
+    background-color: var(--bluchiaro);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+}
+#tipidicucina div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stellapreferiti{
+    height: 8vh !important;
+}

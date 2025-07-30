@@ -1,0 +1,28 @@
+#informazioni_ristorante
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#piatti_ristorante{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+#piatti_ristorante div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+    border-radius: 50px;
+    margin: 20px;
+    width: 60vw;
+}
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}

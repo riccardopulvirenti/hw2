@@ -1,0 +1,22 @@
+#piatti_preferiti {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:  5% 1%;
+}
+#piatti_preferiti div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 5px solid orange;
+    padding: 2%;
+    width: 15vw;
+    margin: 2% 0;
+    height: 40vh;
+}
+#piatti_preferiti div img{
+    height: 20vh;
+}
